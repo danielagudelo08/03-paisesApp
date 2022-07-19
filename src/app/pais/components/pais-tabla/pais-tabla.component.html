@@ -21,7 +21,7 @@
             <td>{{pais.region}}</td>
             <td>{{pais.population | number}}</td>
             <th>
-                <a href="aa">Ver más...</a>
+                <a [routerLink]="['/pais', pais.alpha2Code]">Ver más...</a>
             </th>
         </tr>
 
