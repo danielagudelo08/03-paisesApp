@@ -1,3 +1,11 @@
 .small-flag{
     width: 50px;
 }
+
+html, body{
+  background-color: #CAD2DE;
+}
+
+.mr-6 {
+  margin-right: 5px;
+}
